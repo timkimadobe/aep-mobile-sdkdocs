@@ -1857,7 +1857,7 @@ public class TargetOrder: NSObject, Codable {
 }
 ```
 
-Examples for creating instances of TargetOrder can be seen in the [Target overview](./index.md#arget-order-class).
+Examples for creating instances of TargetOrder can be seen in the [Target overview](./index.md#target-order-class).
 
 <!--- <Variant platform="react-native" api="target-order" repeat="5"/>
 

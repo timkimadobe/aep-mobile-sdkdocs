@@ -89,7 +89,7 @@ Adds a handler for named JavaScript messages sent from the message's `WKWebView`
 
 The parameter passed to `handler` will contain the body of the message passed from the `WKWebView`'s JavaScript.
 
-For a full guide on how to use `handleJavascriptMessage`, read [Call native code from the Javascript of an in-app message](./tutorials/native-from-javascript.md).
+For a full guide on how to use `handleJavascriptMessage`, read [Call native code from the Javascript of an in-app message](../tutorials/native-from-javascript.md).
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="1"/>
 
@@ -167,7 +167,7 @@ Android
 
 This API has been removed in v3.0.0 of Adobe Journey Optimizer extension.
 
-Migrate to  use `PresentationDelegate` and use the `InAppMessageEventHandler.evaluateJavascript(String, AdobeCallback)` API instead. Refer to this [tutorial](../in-app-message/tutorials/javascript-from-native/) for more details.
+Migrate to use `PresentationDelegate` and use the `InAppMessageEventHandler.evaluateJavascript(String, AdobeCallback)` API instead. Refer to this [tutorial](../in-app-message/tutorials/javascript-from-native.md) for more details.
 
 Evaluates the passed in `String` content containing JavaScript code using the `Message`'s webview. `handleJavascriptMessage` must be called with a valid callback before calling `evaluateJavascript` as the body of the message passed from the JavaScript code execution will be returned in the `AdobeCallback` .
 

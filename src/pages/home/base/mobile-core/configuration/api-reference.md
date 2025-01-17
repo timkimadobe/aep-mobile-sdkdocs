@@ -73,7 +73,7 @@ iOS
 
 This API is only available in Android.
 
-You can bundle a JSON configuration file in the app's Assets folder to replace or complement the configuration that was downloaded by using the [Configure with App ID per environment](./index.md#configure-with-app-id-per-environment) approach.
+You can bundle a JSON configuration file in the app's Assets folder to replace or complement the configuration that was downloaded by using the [Configure with App ID per environment](../index.md#configure-with-app-id-per-environment) approach.
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="1"/>
 

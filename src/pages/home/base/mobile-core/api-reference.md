@@ -38,7 +38,7 @@ iOS
 
 ## collectPii
 
-The `collectPii` method lets the SDK to collect sensitive or personally identifiable information (PII).
+The `collectPii` method lets the SDK collect sensitive or personally identifiable information (PII).
 
 <InlineAlert variant="warning" slots="text"/>
 
