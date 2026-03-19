@@ -115,7 +115,11 @@ Button("Chat") {
 }
 ```
 
-Optional: provide **speech capture** (default is created internally if not passed) and **text to speech** by passing a `TextSpeaking` implementation (text to speech is off by default unless you supply one).
+`Concierge.show()` also accepts optional parameters:
+
+* `speechCapturer`: A `SpeechCapturing` implementation for voice input (a default is created internally if not passed).
+* `textSpeaker`: A `TextSpeaking` implementation for text-to-speech (off by default unless you supply one).
+* `handleLink`: A callback invoked when a link is tapped in the chat. See [Link Handling](#link-handling) for details.
 
 ### Option B — Floating button (built-in)
 
@@ -126,6 +130,12 @@ Concierge.wrap(AppRootView(), surfaces: ["my-surface"]) // hideButton defaults t
 ```
 
 This shows a floating button in the bottom trailing corner; tapping it calls `Concierge.show(surfaces:)`.
+
+`Concierge.wrap()` also accepts optional parameters:
+
+* `title`: Title shown in the chat header.
+* `subtitle`: Subtitle shown under the title.
+* `handleLink`: A callback invoked when a link is tapped in the chat. See [Link Handling](#link-handling) for details.
 
 ### Closing the UI
 
